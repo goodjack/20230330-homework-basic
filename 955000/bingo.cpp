@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int bingo[5][5];
+    int bingo[5][5]; // 儲存賓果的 25 個亂數
     int number[25] = {0};
     srand(time(0));
     for (int i = 0; i < 25; i++) {
